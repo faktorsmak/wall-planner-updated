@@ -1,0 +1,12 @@
+/* div {
+  font-size: 0.9em;
+}
+h4 {
+  font-size: 1.5em;
+} */
+input[type="number"]  {
+  height: 25px;
+}
+button {
+  min-width: 27px;
+}
