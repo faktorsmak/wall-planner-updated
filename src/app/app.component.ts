@@ -1,10 +1,8 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { CommonModule } from '@angular/common';
-
+import { DecimalPipe } from '@angular/common';
 import { ElementRef, ViewChild, HostListener } from '@angular/core';
 import { Surface, Path, Text, Group, geometry } from '@progress/kendo-drawing';
-import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 const { Point, transform } = geometry;
 
